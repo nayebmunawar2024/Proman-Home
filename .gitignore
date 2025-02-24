@@ -1,0 +1,47 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP dependencies
+/vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache and logs
+/logs/
+*.log
+/cache/
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build and compiled files
+/dist/
+/build/
+/node_modules/
+
+# Configuration files that may contain sensitive information
+config.php
+database.php
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# WAMP specific
+/tmp/
+/temp/
